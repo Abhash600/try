@@ -1,0 +1,222 @@
+body {
+  margin: 0px;
+}
+
+#body-header {
+  height: 65vh;
+  background-image: url(pexels-soumil-kumar-735911.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.h-list {
+  list-style: none;
+  margin: 0px;
+  padding-top: 40px;
+}
+.h-list li {
+  display: inline-block;
+  margin: 0px 25px 25px 0px;
+}
+.h-list li a {
+  color: rgba(243, 243, 172, 0.952);
+  text-decoration: none;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.nav-menu li a {
+  transition: color 0.5s, border-bottom 0.5s;
+}
+
+.nav-menu li a:hover {
+  color: rgba(187, 187, 247, 0.945);
+  text-decoration: underline;
+}
+#my-name {
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: rgba(243, 243, 172, 0.952);
+}
+
+/* Here we have created a general purpose class for applying centering property to the elements we desire, just add text-centre to the class name of the element */
+#name-social-container {
+  margin-top: 20vh;
+  text-shadow: 1px 1px 1px rgba(243, 243, 172, 0.952);
+}
+.text-centre {
+  text-align: center;
+}
+
+.social-icons li a i {
+  padding: 10px;
+  font-size: 2rem;
+  color: rgb(248, 230, 205);
+  border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+  box-shadow: 0px 0px 6px 4px rgba(187, 187, 247, 0.945);
+}
+
+#about {
+  height: auto;
+  width: 100%;
+}
+#my-image {
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+  position: relative;
+  margin-top: -10vh;
+}
+#my-image img {
+  box-shadow: 10px 10px 50px rgba(14, 9, 2, 0.753);
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+p {
+  margin-top: 10px;
+  font-size: x-large;
+  color: rgb(114, 113, 113);
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Every even child will have this rule*/
+section:nth-child(2n) {
+  background-color: #f3eded;
+}
+
+/* Every odd child will have this rule */
+section:nth-child(2n + 1) {
+  background-color: white;
+}
+
+.section-heading {
+  width: auto;
+  padding: 20px 10px 10px;
+  font-weight: 400;
+}
+.section-heading span {
+  font-size: 40px;
+  color: #2857a4;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 0.5 rem;
+  margin-bottom: 10px;
+  font: 2em "Fira Sans", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #7f7f80;
+}
+
+.mn75px {
+  margin-bottom: 75px;
+}
+
+/* Skills section */
+.skills-display {
+  width: 70%;
+  height: 150px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-progress {
+  height: 3rem;
+  width: 9rem;
+  background-color: lightgray;
+  border-radius: 1.5rem;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+.skill-name span {
+  font: 1.2em "Fira Sans", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 10px rgb(8, 8, 8);
+  font-size: 2rem;
+  margin-left: 5px;
+}
+.skill-progress > div {
+  border-radius: 20px 0px 0px 20px;
+}
+.mb-blue {
+  background-color: #8338ec;
+}
+.mb-orange {
+  background-color: #ffd166;
+}
+.mb-green {
+  background-color: #06d6a0;
+}
+.mb-pink {
+  background-color: #ef476f;
+}
+.mb-red {
+  background-color: #f71933;
+}
+/* Percentage classes */
+.seventy {
+  width: 70%;
+  height: inherit;
+}
+.fifty {
+  width: 50%;
+  height: inherit;
+}
+.sixty {
+  width: 60%;
+  height: inherit;
+}
+.forty {
+  width: 40%;
+  height: inherit;
+}
+.twenty {
+  width: 20%;
+  height: inherit;
+}
+
+/* add border shadows and font size */
+
+.border-shadow {
+  box-shadow: 2px 10px 40px 0px grey;
+}
+
+/* /* project section */
+
+.project-section {
+  display: flex;
+  width: 80%;
+  height: 250px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(250, 249, 249);
+}
+.rounded-square {
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  background-color: beige;
+  border: 2px solid black;
+  border-radius: 2.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rounded-square .project-name img {
+  max-width: 100%;
+  border-radius: 2.5rem;
+}
